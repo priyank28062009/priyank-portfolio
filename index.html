@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Priyank Yadav | B.Tech CSE Student Portfolio</title>
+<meta name="description" content="Portfolio of Priyank Yadav, a first-year B.Tech CSE student at GLA University, Mathura, learning C and exploring cloud computing.">
+<meta name="theme-color" content="#031B2E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ocean" aria-hidden="true">
+  <div class="rays"></div>
+  <div id="bubbles"></div>
+</div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Priyank Yadav, home"><span>PY</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks"><i class="fa-solid fa-bars"></i></button>
+  <nav aria-label="Main navigation">
+    <ul id="navLinks" class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="label">FIRST-YEAR CSE STUDENT</p>
+    <h1>Hi, I'm <span class="grad">Priyank Yadav</span></h1>
+    <p class="sub">B.Tech Computer Science and Engineering at GLA University, Mathura</p>
+    <p class="desc">I'm learning C programming, exploring the different fields of CSE, and developing an interest in cloud computing.</p>
+    <div class="btns">
+      <a class="btn primary" href="#journey">Explore My Journey</a>
+      <a class="btn ghost" href="#contact">Connect With Me</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/priyank28062009" target="_blank" rel="noopener noreferrer" aria-label="Priyank on GitHub (opens in new tab)"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/priyank-yadav-431b26424" target="_blank" rel="noopener noreferrer" aria-label="Priyank on LinkedIn (opens in new tab)"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <div class="orb" data-depth="22"><div class="ring r1"></div><div class="ring r2"></div><span>PY</span></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2 class="reveal">About Me</h2>
+  <p class="lead reveal">I'm Priyank Yadav, a first-year B.Tech Computer Science and Engineering student at GLA University, Mathura. I'm building my programming fundamentals with C and exploring the diverse fields of computer science. I'm especially curious about cloud computing and how modern technologies power digital experiences. My journey is just beginning, and I'm focused on learning, experimenting, and growing one step at a time.</p>
+  <div class="grid">
+    <article class="card reveal"><i class="fa-solid fa-graduation-cap"></i><h3>Education</h3><p>B.Tech CSE</p></article>
+    <article class="card reveal"><i class="fa-solid fa-building-columns"></i><h3>University</h3><p>GLA University, Mathura</p></article>
+    <article class="card reveal"><i class="fa-solid fa-code"></i><h3>Currently Learning</h3><p>C Programming</p></article>
+    <article class="card reveal"><i class="fa-solid fa-compass"></i><h3>Exploring</h3><p>Computer Science Fields</p></article>
+    <article class="card reveal"><i class="fa-solid fa-cloud"></i><h3>Interest</h3><p>Cloud Computing</p></article>
+  </div>
+</section>
+
+<section id="journey" class="section">
+  <h2 class="reveal">Learning Journey</h2>
+  <p class="lead reveal">Descending one level at a time. Select a depth to explore.</p>
+  <div class="journey reveal">
+    <div class="depths" role="tablist" aria-label="Learning journey stages">
+      <button role="tab" id="t0" aria-selected="true" aria-controls="jpanel" class="depth active"><b>01</b> Computer Science Foundations</button>
+      <button role="tab" id="t1" aria-selected="false" aria-controls="jpanel" class="depth"><b>02</b> C Programming</button>
+      <button role="tab" id="t2" aria-selected="false" aria-controls="jpanel" class="depth"><b>03</b> Cloud Computing</button>
+      <button role="tab" id="t3" aria-selected="false" aria-controls="jpanel" class="depth"><b>04</b> Future Growth</button>
+    </div>
+    <div class="panel card" id="jpanel" role="tabpanel" aria-live="polite" aria-labelledby="t0">
+      <h3 id="jtitle">Computer Science Foundations</h3>
+      <p id="jtext">Exploring fundamental concepts and different areas of CSE.</p>
+      <span class="tag" id="jtag">Exploring</span>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2 class="reveal">Skills &amp; Technologies</h2>
+  <p class="lead reveal">An honest snapshot of where I am right now.</p>
+  <div class="grid three">
+    <article class="card reveal"><i class="fa-solid fa-terminal float"></i><h3>Currently Learning</h3><ul><li>C Programming</li></ul></article>
+    <article class="card reveal"><i class="fa-solid fa-water float"></i><h3>Exploring</h3><ul><li>Cloud Computing</li><li>Computer Science and Engineering Fields</li></ul></article>
+    <article class="card reveal"><i class="fa-solid fa-layer-group float"></i><h3>Foundational Knowledge</h3><ul><li>Programming Fundamentals</li></ul></article>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="reveal">Projects</h2>
+  <p class="lead reveal">Projects Coming Soon. This portfolio will grow as I build and share new work.</p>
+  <div class="grid projects" id="projectGrid">
+    <!-- To add a project, copy the commented card below:
+    <article class="card project reveal"><h3>Project Name</h3><p>Description</p><a class="btn ghost" href="REPO_URL" target="_blank" rel="noopener noreferrer">View on GitHub</a></article> -->
+    <article class="card project placeholder reveal">
+      <div class="wave" aria-hidden="true"></div>
+      <i class="fa-solid fa-anchor"></i>
+      <h3>More projects will appear here as I build.</h3>
+      <p>Check back soon, or follow along on GitHub.</p>
+    </article>
+  </div>
+</section>
+
+<section id="interests" class="section">
+  <h2 class="reveal">Interests</h2>
+  <div class="grid four">
+    <article class="card reveal"><i class="fa-solid fa-cloud"></i><h3>Cloud Computing</h3><p>Curious about how cloud platforms work and power modern services.</p></article>
+    <article class="card reveal"><i class="fa-solid fa-laptop-code"></i><h3>Programming</h3><p>Building strong fundamentals, starting with C.</p></article>
+    <article class="card reveal"><i class="fa-solid fa-compass"></i><h3>Exploring CSE</h3><p>Discovering the many fields within computer science.</p></article>
+    <article class="card reveal"><i class="fa-solid fa-lightbulb"></i><h3>Technology &amp; Learning</h3><p>Enjoying new concepts and steady improvement.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2 class="reveal">Let's Connect</h2>
+  <p class="lead reveal">I'm always happy to meet fellow learners, mentors, and people working in tech. Say hello on LinkedIn or follow my journey on GitHub.</p>
+  <div class="btns center reveal">
+    <a class="btn primary" href="https://www.linkedin.com/in/priyank-yadav-431b26424" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/priyank28062009" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div>
+    <strong>Priyank Yadav</strong>
+    <p>B.Tech CSE Student at GLA University</p>
+  </div>
+  <div class="socials">
+    <a href="https://github.com/priyank28062009" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/priyank-yadav-431b26424" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)"><i class="fa-brands fa-linkedin-in"></i></a>
+  </div>
+  <p class="copy">&copy; <span id="year">2026</span> Priyank Yadav. All rights reserved.</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="script.js" defer></script>
+</body>
+</html>
